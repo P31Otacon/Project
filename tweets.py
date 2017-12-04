@@ -2,7 +2,7 @@ import tweepy
 import json
 
 
-#Twitter API credentials
+# Twitter API credentials
 consumer_key = ' '
 consumer_secret = ' '
 access_key = ' '
