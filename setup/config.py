@@ -1,12 +1,14 @@
+# authorize access 
 import tweepy
 from tweepy import OAuthHandler
 
-consumer_key = 'YOUR-CONSUMER-KEY'
-consumer_secret = 'YOUR-CONSUMER-SECRET'
-access_token = 'YOUR-ACCESS-TOKEN'
-access_secret = 'YOUR-ACCESS-SECRET'
+consumer_key = ' '
+consumer_secret = ' '
+access_token = ' '
+access_secret = ' '
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
+# store tweepy authentication into a variable
 api = tweepy.API(auth)
